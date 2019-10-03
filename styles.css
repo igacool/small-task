@@ -1,0 +1,34 @@
+body {
+  background-color: darkcyan;
+}
+.field {
+  border: 3px solid rgb(18, 56, 78);
+  height: 80%;
+  min-height: 400px;
+  background-color: lightblue;
+  position: relative;
+}
+.start {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+.topelem {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.count,
+.timestart {
+  border: 3px solid rgb(18, 56, 78);
+  background-color: lightblue;
+  padding: 2px;
+  margin-top: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
